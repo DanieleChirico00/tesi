@@ -1,0 +1,39 @@
+\chapter{Introduction}
+The first detection of gravitational waves, associated with the merger of two black holes, GW150914 \cite{Abbott_2020}, obtained by LIGO in 2016, signed the dawn of gravitational wave astronomy.\\
+Since this event, several gravitational waves have been detected, around 70 from black holes binaries (cita) and two from the merging of neutron star.
+Thanks to this discoveries we acquired much information about the characteristics of these objects, since the gravitational-wave signature encodes the properties of the merging binaries.\\
+The total mass of the heaviest black hole binaries, for example GW150914 and GW190521 (cita), is measured relatively accurately because the frequency band of the gravitational-wave detectors coincides with the latest stage of the merger waveform, the ringdown. Whereas, for the lightest black-hole binaries, it is usually measured the chirp mass, since it determines to lowest order the rate of frequency evolution during the earlier inspiral phase of the waveform.\\
+These measurements permit to observe that the range of the mass of individual black holes goes from $2.6M_\odot$ for GW190814 to $80M_\odot$ for GW190521.\\
+Regarding the individual black hole spins, it is quite difficult to measure them precisely using gravitational waves, since most of the observed mergers show negligible spins, and only in a small part of the registered events it has been detected a non-zero ‘effective spin’.In particular, according to Galaudage et al., around the $80\%$ of merging binary black holes have negligible spins on both components, while the remaining 20\% shows a value of spins different from zero.\\
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width= 0.8\textwidth]{chapter/Screenshot (26).png}
+    \caption{A graphic representation of the common-envelope phase}
+\end{figure}
+\\
+\\
+The emission detected from these events is a very strong function of orbital separation: during a compact
+binary merger, the luminosity in gravitational waves is a few thousandths of the Planck luminosity, depending on the reciprocal of the fifth power of the separation. Because of that, only very close binaries can be brought to a merger by gravitational waves within the age of the universe, for example for the two black holes of GW150914 with masses about $30M_\odot$ the initial separation at periapsis must have been less than $50R_\odot$.\\
+However, the expansion of stars during their evolution brings a problem: since stars that leave behind black holes can reach thousands of solar radii at their maximal extent, in a close binary is possible that the stars will expand to sizes much larger than their separation as they evolve, and we can expect that they would merge long before they collapse into black holes.\\
+At the same time, if the orbital separation is too high, their remnant binaries will take a time very much longer than the age of the Universe to merge. In either case, we should not see gravitational wave emissions.\\
+There are many scenarios proposed to solve this problem, in this work we will discuss the classical isolated binary evolution via the common-envelope phase.\\
+After the main sequence, a massive star in a binary system
+can develop a stellar radius as large as several thousand solar radii. Hence, the binary system may undergo Roche lobe overflow and possibly common envelope (Ivanova et al., 2013), with the result that the BH and the core of the giant star orbit are surrounded by the giant’s envelope, losing kinetic energy, and starting to inspiral about each other. If the envelope is ejected, the final binary system is composed of the BH and the core of the giant. Thanks to the spiral-in the orbital separation is reduced and the system, after the collapsing of the giant's core, becomes a BBH able to merge within a Hubble time.\\
+
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width= 0.4\textwidth]{chapter/Screenshot (12).jpeg}
+    \caption{A graphic representation of the common-envelope phase}
+\end{figure}
+
+\newpage 
+The aim of our study is to analyze the last stage of this phase, where the giant's core collapsed into a black hole, after the supernova explosion, and the BBH has just formed. In particular, the choice to consider, before the SN explosion, only the immediate progenitors , as well explained in Kalogera(cita), allow us to not care about many uncertain assumptions concerning earlier stages that could affect the results in a complicated way.\\
+\\
+In order to study the different case, we started from assuming that the initially orbit was circular, redoing the calculations of \cite{Kalogera_2000}, and studying the distributions of close orbit after the kick given by the supernova explosion.\\
+Then, we did the same thing beginning with a pre-SN elliptical orbit, but in this case we examined not only the distribution of major semi-axes and eccentricity of closed orbit after the SN, but also the angle formed between the pre-SN and post-SN orbital angular momentum, and the distribution of the angle between the spin axes of the BH and the post-SN orbital angolar momentum, assuming that the SN did not misalign the BH's spin axes, just like it was done in \cite{Gerosa_2013}.
+\\
+\\
+Moreover, with the purpose to follow the idea of \cite{Tauris_2022}, we consider the case where the supernova tossed the spin axes of the BH, since there are
+some case, such as recent measurements of a large spin-orbit misalignment in the X-ray binary MAXI J1820+070 (Poutanen et al. 2022), which indicate that this event could be a generic process in all core collapse SN.
+We then calculated for the first time the expression for the angle between the two spin axes pre-SN and post-SN, and starting from that we made simulations in order to compare our results with \cite{Tauris_2022}.
